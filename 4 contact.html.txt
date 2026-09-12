@@ -1,0 +1,32 @@
+html<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NORTH STAR BAKERY</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="contact.html">Pre-Orders</a>
+        </nav>
+    </header>
+
+    <main class="page-content text-focus">
+        <h1>Our Story</h1>
+        <section class="about-section">
+            <p>North Star Bakery is a neighborhood bakery focused on building deep community connections. We bake warm, comforting artisanal breads and pastries daily to satisfy local families, commuters, and event planners alike.</p>
+            <p>Our commitment rests on strict guidelines: using authentic ingredients, preserving raw handmade execution standards, and providing a clean, welcoming environment for everyone who walks through our doors.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 North Star Bakery. Designed by Rolando Guardado Lopez.</p>
+    </footer>
+</body>
+</html>

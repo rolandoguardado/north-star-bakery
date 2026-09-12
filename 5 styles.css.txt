@@ -1,0 +1,69 @@
+html<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery - Pre-Orders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NORTH STAR BAKERY</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Pre-Orders</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <h1>Pre-Order Portal</h1>
+        <p class="subtitle">Please fill out the form below to place your custom request or inquiry.</p>
+
+        <section class="form-container">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Requested Pickup Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="type">Request Type:</label>
+                    <select id="type" name="type" required>
+                        <option value="pre-order">Standard Pre-Order</option>
+                        <option value="custom">Custom Special Event Cake</option>
+                        <option value="inquiry">General Inquiry</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Item Details & Quantities:</label>
+                    <textarea id="details" name="details" rows="5" required placeholder="Example: 2 Sourdough loaves, 1 Croissant box..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="allergies">Allergy & Dietary Notes:</label>
+                    <textarea id="allergies" name="allergies" rows="2"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 North Star Bakery. Designed by Rolando Guardado Lopez.</p>
+    </footer>
+</body>
+</html>
